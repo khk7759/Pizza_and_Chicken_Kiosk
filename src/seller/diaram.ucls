@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="data.Data" project="Semi" file="/Semi/src/data/Data.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="905" width="134" x="1034" y="1274"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="data.ShoppingCart" project="Semi" file="/Semi/src/data/ShoppingCart.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="122" x="242" y="1828"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="data.Set" project="Semi" file="/Semi/src/data/Set.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="104" x="459" y="1941"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="data.SalesData" project="Semi" file="/Semi/src/data/SalesData.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="117" x="522" y="1828"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="data.Coupon" project="Semi" file="/Semi/src/data/Coupon.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="104" x="364" y="1046"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="data.Money" project="Semi" file="/Semi/src/data/Money.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="104" x="76" y="1828"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="data.Pizza" project="Semi" file="/Semi/src/data/Pizza.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="185" width="178" x="538" y="2248"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="data.Stock" project="Semi" file="/Semi/src/data/Stock.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="60" width="104" x="105" y="2433"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <bendpoint x="864" y="1512"/>    
+    <bendpoint x="864" y="1856"/>    
+    <bendpoint x="864" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="10" name="timeChicken"/>      
+      <multiplicity id="11" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <bendpoint x="1053" y="1512"/>    
+    <bendpoint x="1053" y="1856"/>    
+    <bendpoint x="1053" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="13" name="pack"/>      
+      <multiplicity id="14" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <bendpoint x="316" y="1856"/>    
+    <bendpoint x="316" y="2236"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="16" name="drinkSD"/>      
+      <multiplicity id="17" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <bendpoint x="-149" y="2021"/>    
+    <bendpoint x="253" y="2236"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="19" name="chicken"/>      
+      <multiplicity id="20" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="22" name="pizza"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <bendpoint x="337" y="1856"/>    
+    <bendpoint x="337" y="2236"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="25" name="chickenSD"/>      
+      <multiplicity id="26" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <bendpoint x="843" y="1512"/>    
+    <bendpoint x="843" y="1856"/>    
+    <bendpoint x="843" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="28" name="drink"/>      
+      <multiplicity id="29" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <bendpoint x="717" y="1512"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="31" name="set"/>      
+      <multiplicity id="32" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="34" name="coupon"/>      
+      <multiplicity id="35" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="36">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="37" name="salesData"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="39">    
+    <bendpoint x="-107" y="2021"/>    
+    <bendpoint x="295" y="2236"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="40" name="drink"/>      
+      <multiplicity id="41" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="42">    
+    <bendpoint x="990" y="1512"/>    
+    <bendpoint x="990" y="1856"/>    
+    <bendpoint x="990" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="43" name="sauce"/>      
+      <multiplicity id="44" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <bendpoint x="1032" y="1512"/>    
+    <bendpoint x="1032" y="1856"/>    
+    <bendpoint x="1032" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="46" name="chicken"/>      
+      <multiplicity id="47" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <bendpoint x="969" y="1512"/>    
+    <bendpoint x="969" y="1856"/>    
+    <bendpoint x="969" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="49" name="adultDrink"/>      
+      <multiplicity id="50" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="52" name="sauce"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <bendpoint x="400" y="1856"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="55" name="pizza"/>      
+      <multiplicity id="56" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <bendpoint x="232" y="1856"/>    
+    <bendpoint x="232" y="2236"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="58" name="side"/>      
+      <multiplicity id="59" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="61" name="setSD"/>      
+      <multiplicity id="62" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <bendpoint x="738" y="1512"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="64" name="randomSet"/>      
+      <multiplicity id="65" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <bendpoint x="822" y="1512"/>    
+    <bendpoint x="822" y="1856"/>    
+    <bendpoint x="822" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="67" name="dough"/>      
+      <multiplicity id="68" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="69">    
+    <bendpoint x="885" y="1512"/>    
+    <bendpoint x="885" y="1856"/>    
+    <bendpoint x="885" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="70" name="gifts"/>      
+      <multiplicity id="71" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <bendpoint x="421" y="2236"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="73" name="chicken"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="76" name="ingredient"/>      
+      <multiplicity id="77" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="79" name="cheese"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="81">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="82" name="money"/>      
+      <multiplicity id="83" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="84">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="85" name="set"/>      
+      <multiplicity id="86" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <bendpoint x="-128" y="2021"/>    
+    <bendpoint x="274" y="2236"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="88" name="adultDrink"/>      
+      <multiplicity id="89" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="90">    
+    <bendpoint x="1011" y="1512"/>    
+    <bendpoint x="1011" y="1856"/>    
+    <bendpoint x="1011" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="91" name="cheese"/>      
+      <multiplicity id="92" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="93">    
+    <bendpoint x="698" y="1856"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="94" name="pizzaSD"/>      
+      <multiplicity id="95" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="96">    
+    <bendpoint x="379" y="1856"/>    
+    <bendpoint x="379" y="2236"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="97" name="adultDrinkSD"/>      
+      <multiplicity id="98" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="99">    
+    <bendpoint x="400" y="2236"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="100" name="drink"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="103" name="data"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="105">    
+    <bendpoint x="906" y="1512"/>    
+    <bendpoint x="906" y="1856"/>    
+    <bendpoint x="906" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="106" name="ingredient"/>      
+      <multiplicity id="107" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="108">    
+    <bendpoint x="801" y="1512"/>    
+    <bendpoint x="801" y="1856"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="109" name="pizza"/>      
+      <multiplicity id="110" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="111">    
+    <bendpoint x="948" y="1512"/>    
+    <bendpoint x="948" y="1856"/>    
+    <bendpoint x="948" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="112" name="side"/>      
+      <multiplicity id="113" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="114">    
+    <bendpoint x="358" y="1856"/>    
+    <bendpoint x="358" y="2236"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="115" name="sideSD"/>      
+      <multiplicity id="116" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="117">    
+    <bendpoint x="780" y="1512"/>    
+    <bendpoint x="780" y="1856"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="118" name="timePizza"/>      
+      <multiplicity id="119" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="120">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="121" name="dough"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="123">    
+    <bendpoint x="927" y="1512"/>    
+    <bendpoint x="927" y="1856"/>    
+    <bendpoint x="927" y="2236"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="124" name="randomChicken"/>      
+      <multiplicity id="125" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="126">    
+    <bendpoint x="759" y="1512"/>    
+    <bendpoint x="759" y="1856"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="127" name="randomPizza"/>      
+      <multiplicity id="128" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="129">    
+    <bendpoint x="442" y="2236"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="130" name="side"/>      
+      <multiplicity id="131" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
